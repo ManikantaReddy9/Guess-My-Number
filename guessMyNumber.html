@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess My Number</title>
+    <link rel="stylesheet" href="./guessMyNumberstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div id="main">
+        <div id="container1">
+            <div id="container2">
+                <input type="button" value="Play Again!" id="again">
+                <span id="bwn">(Between 1 to 20)</span>
+            </div>
+            <br><br><br><br><br><br><br><br><br>
+            <span id="guess">Guess My Number..!</span>
+            <div id="countdown"></div>
+            <br><br><br><br><br><br><br><br><br>
+        </div>
+        <span id="question">?</span>
+        <div id="container3">
+            <div>
+                <input type="text" id="phd" value="" placeholder="">
+                <button id="check">Check!</button>
+            </div>
+            <div id="score-part">
+                <span id="start">Start Guessing...</span><br><br>
+                <span>Score: <span id="score">20</span></span><br><br>
+                <span>High Score:<span id="highscore">0</span></span>
+            </div>
+            
+        </div>
+    </div>
+    
+    <script src="./guessMyNumberCode.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+    
+    
+</body>
+</html>

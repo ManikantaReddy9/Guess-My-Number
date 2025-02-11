@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+body {
+    font-family: 'press start 2p', sans-serif;
+    font-weight: 600;
+    margin: 0;
+  }
+#again{
+    font-family: 'press start 2p', sans-serif;
+    font-size: 25px;
+    padding: 5px;
+    position: relative;
+    font-weight: 600;
+    top: 30px;
+    left: 10px;
+    cursor: pointer;
+}
+#again:active {
+    animation: pulse 0.5s ease-in-out;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+#bwn{
+    font-size: 30px;
+    position: relative;
+    top: 30px;
+}
+#container1{
+    background-color: black;
+    color: white;
+}
+#container2{
+    display: flex;
+    justify-content: space-between;
+}
+#guess{
+    position: relative;
+    left: 575px;
+    font-size: 30px;
+}
+#question{
+    font-size: 50px;
+    border: 2px solid;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    align-content: center;
+    height: 30px;
+    width: 70px;
+    position: relative;
+    left: 750px;
+    top: -20px;
+    background-color: violet;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    z-index: 100;
+}
+#container3{
+    background-color: black;
+    height: 400px;
+    position: relative;
+    top: -45px;
+    display: flex;
+}
+#phd{
+    height: 50px;
+    width: 100px;
+    position: relative;
+    top: 200px;
+    background-color: black;
+    border: 2px solid gray;
+    border-radius: 2px;
+    color: white;
+    font-size: 30px;
+    left: 150px;
+    text-align: center;
+    font-family: 'press start 2p', sans-serif;
+}
+#check{
+    font-family: 'press start 2p', sans-serif;
+    background-color: white;
+    color: black;
+    position: relative;
+    top: 260px;
+    left: 15px;
+    font-size: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#check:active {
+    animation: pulse 0.5s ease-in-out;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+#score-part{
+    color: white;
+    position: relative;
+    left: 600px;
+    top: 180px;
+    font-size: 22px;
+}
+#container1, #container3, #phd {
+    transition: background-color 0.5s ease-in-out, transform 0.5s ease;
+}
+#countdown{
+    font-family: 'press start 2p', sans-serif;
+    position: relative;
+    top: 80px;
+    left: 480px;
+    font-size: 20px;
+}
+.shake {
+    animation: shake 0.5s ease;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    50% { transform: translateY(10px); }
+    75% { transform: translateY(-10px); }
+    100% { transform: translateX(0); }
+}
+
+
+
